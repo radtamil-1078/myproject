@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ORDERS05>
+  <IDOC BEGIN="1">
+    <EDI_DC40 SEGMENT="1">
+      <TABNAM>EDI_DC40</TABNAM>
+      <MANDT>300</MANDT>
+      <DIRECT>1</DIRECT>
+      <IDOCTYP>ORDERS05</IDOCTYP>
+     <MESTYP>ORDRSP</MESTYP>
+      <MESFCT>LS</MESFCT>
+      <SNDPOR>SAPECP</SNDPOR>
+      <SNDPRT>LS</SNDPRT>
+      <SNDPFC>AG</SNDPFC>
+      <SNDPRN>EP1CLNT300</SNDPRN>
+      <RCVPOR>ABAC2</RCVPOR>
+      <RCVPRT>KU</RCVPRT>
+      <RCVPRN>ABAC2</RCVPRN>
+      <CREDAT>20261015</CREDAT>
+      <CRETIM>173521</CRETIM>
+    </EDI_DC40>
+    <E1EDK01 SEGMENT="1">
+      <ACTION>001</ACTION>
+      <CURCY>USD</CURCY>
+      <BELNR>CI1015261243527</BELNR>
+    </E1EDK01>
+    <E1EDK14 SEGMENT="1">
+      <QUALF>012</QUALF>
+      <ORGID>ZOR</ORGID>
+    </E1EDK14>
+    <E1EDK14 SEGMENT="1">
+      <QUALF>019</QUALF>
+      <ORGID>S2</ORGID>
+    </E1EDK14>
+    <E1EDK03 SEGMENT="1">
+      <IDDAT>002</IDDAT>
+      <DATUM>20261015</DATUM>
+      <UZEIT/>
+    </E1EDK03>
+    <E1EDKA1 SEGMENT="1">
+      <PARVW>AG</PARVW>
+      <PARTN>ABAC2</PARTN>
+      <NAME1>autocus04@aeroxchange.com</NAME1>
+      <STRAS>XXXXXX</STRAS>
+      <ORT01>YYYY</ORT01>
+	  <PSTLZ>75261</PSTLZ>
+      <LAND1>US</LAND1>
+      <REGIO>TX</REGIO>
+    </E1EDKA1>
+    <E1EDKA1 SEGMENT="1">
+      <PARVW>LF</PARVW>
+      <PARTN>ABS04</PARTN>
+      <NAME1>autosup04@aeroxchange.com</NAME1>
+      <STRAS>XXXXXX</STRAS>
+      <STRS2>XXXXXXXX</STRS2>
+      <ORT01>YYYYY</ORT01>
+	  <PSTLZ>23@#WEST$</PSTLZ>
+      <LAND1>US</LAND1>
+    </E1EDKA1>
+    <E1EDKA1 SEGMENT="1">
+      <PARVW>WE</PARVW>
+      <LIFNR>1000</LIFNR>
+      <NAME1>AVIALL CENTRAL WAREHOUSE</NAME1>
+      <STRAS>2750 REGENT BLVD.</STRAS>
+      <ORT01>DFW AIRPORT</ORT01>
+      <PSTLZ>75261</PSTLZ>
+      <LAND1>US</LAND1>
+      <REGIO>TX</REGIO>
+    </E1EDKA1>
+    <E1EDK02 SEGMENT="1">
+      <QUALF>001</QUALF>
+      <BELNR>CI1015261243527</BELNR>
+    </E1EDK02>
+    <E1EDP01 SEGMENT="1">
+      <POSEX>1</POSEX>
+      <ACTION>001</ACTION>
+	  <MENGE>15</MENGE>
+      <MENEE>EA</MENEE>
+	  <PMENE>EA</PMENE>
+	  <VPREI>100.00</VPREI>
+      <PEINH>111</PEINH>
+      <CURCY>USD</CURCY>
+      <LPRIO>3</LPRIO>
+      <E1EDP02 SEGMENT="1">
+        <QUALF>001</QUALF>
+        <BELNR>CI1015261243527</BELNR>
+        <ZEILE>00010</ZEILE>
+        <DATUM>20261015</DATUM>
+      </E1EDP02>
+      <E1EDP03 SEGMENT="1">
+        <IDDAT>002</IDDAT>
+        <DATUM>20261015</DATUM>
+      </E1EDP03>
+      <E1EDP05 SEGMENT="1">
+        <ALCKZ>+</ALCKZ>
+        <KSCHL>EDI1</KSCHL>
+      </E1EDP05>
+	  <E1EDP20 SEGMENT="1">
+        <WMENG>5</WMENG>
+        <EDATU>20261015</EDATU>
+      </E1EDP20>
+      <E1EDPA1 SEGMENT="1">
+        <PARVW>WE</PARVW>
+        <LIFNR>1000</LIFNR>
+        <STRAS>AVIALL CENTRAL WAREHOUSE</STRAS>
+        <STRS2>2750 REGENT BLVD.</STRS2>
+        <ORT01>DFW AIRPORT</ORT01>
+        <PSTLZ>75261</PSTLZ>
+        <LAND1>US</LAND1>
+        <REGIO>TX</REGIO>
+      </E1EDPA1>
+	  <E1EDP05 SEGMENT="1">
+                <ALCKZ>-</ALCKZ>
+                <KSCHL>ZLIS</KSCHL>
+		        <KRATE>3.0</KRATE>
+      </E1EDP05>
+      <E1EDP19 SEGMENT="1">
+        <QUALF>001</QUALF>
+        <IDTNR>PART01</IDTNR>
+      </E1EDP19>
+      <E1EDP19 SEGMENT="1">
+        <QUALF>002</QUALF>
+        <IDTNR>PART01</IDTNR>
+      </E1EDP19>
+      <E1EDP19 SEGMENT="1">
+        <QUALF>004</QUALF>
+        <MFRPN>PART-1</MFRPN>
+      </E1EDP19>
+	  <E1EDPAD SEGMENT="1">
+                           <QUALF>001</QUALF>
+                            <ICC>1</ICC>
+                           <PRI>WSP</PRI>
+                     </E1EDPAD>
+      <E1EDPT1 SEGMENT="1">
+                           <TDID>Z008</TDID>
+                           <TSSPRAS>E</TSSPRAS>
+                           <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+                           <E1EDPT2 SEGMENT="1">
+                                  <TDLINE>2026-10-15 19:21:47</TDLINE>
+                                  <TDFORMAT>*</TDFORMAT>
+                           </E1EDPT2>
+						   
+                     </E1EDPT1>
+	 <E1EDPT1 SEGMENT="1">
+                           <TDID>Z014</TDID>
+                           <TSSPRAS>E</TSSPRAS>
+                           <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+                           <E1EDPT2 SEGMENT="1">
+                                  <TDLINE>ABC04</TDLINE>
+                                  <TDFORMAT>*</TDFORMAT>
+                           </E1EDPT2>
+						   
+     </E1EDPT1>
+    </E1EDP01>
+  </IDOC>
+</ORDERS05>

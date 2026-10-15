@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><S1QTNREQ>
+  <SPEC_HDR>
+    <Priority>QK</Priority>
+    <Receiver>ABS04</Receiver>
+    <Sender>ABAC2</Sender>
+    <S1FRADDR>ABAC2</S1FRADDR>
+  </SPEC_HDR>
+  <S1QTNREQcmd>
+    <CCD>S1QUOTES</CCD>
+    <CIC>ABAC2</CIC>
+    <SPL>ABS04</SPL>
+    <QTR>CI02291735</QTR>
+    <S1QTNREQ_QUOTE>
+      <PNR>PART01</PNR>
+      <UNT>EA</UNT>
+      <QTQ>10</QTQ>
+      <SSD>20240229</SSD>
+      <REM>2024-02-29 17:35:22</REM>
+    </S1QTNREQ_QUOTE>
+  </S1QTNREQcmd>
+</S1QTNREQ>

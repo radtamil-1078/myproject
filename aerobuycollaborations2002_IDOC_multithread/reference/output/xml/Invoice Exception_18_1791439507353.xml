@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><S1INVEXC>
+  <SPEC_HDR>
+    <Priority>QK</Priority>
+    <Receiver>ABS04</Receiver>
+    <Sender>ABAC2</Sender>
+    <S1TOADDR>ABAC1</S1TOADDR>
+  </SPEC_HDR>
+  <S1INVEXCcmd>
+    <CCD>S1INVEXC</CCD>
+    <CUS>ABAC2</CUS>
+    <SPL>ABS04</SPL>
+    <CPO>CI100820261135419</CPO>
+    <PNR>PART03</PNR>
+    <INV>CI100820261135419010</INV>
+    <REM>2026-10-08 11:35:07</REM>
+  </S1INVEXCcmd>
+</S1INVEXC>

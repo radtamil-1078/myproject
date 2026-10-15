@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ORDERS05>
+  <IDOC BEGIN="1">
+    <EDI_DC40 SEGMENT="1">
+      <TABNAM>EDI_DC40</TABNAM>
+      <MANDT>300</MANDT>
+      <DIRECT>1</DIRECT>
+      <IDOCTYP>ORDERS05</IDOCTYP>
+      <CIMTYP>ORDERS05</CIMTYP>
+      <MESTYP>ORDACK</MESTYP>
+      <MESFCT>LS</MESFCT>
+      <SNDPOR>DALVXXH</SNDPOR>
+      <SNDPRT>KU</SNDPRT>
+      <SNDPFC>AG</SNDPFC>
+      <SNDPRN>ABAC2</SNDPRN>
+      <RCVPOR>SAPECP</RCVPOR>
+      <RCVPRT>LS</RCVPRT>
+      <RCVPRN>EP1CLNT300</RCVPRN>
+      <CREDAT>20261008</CREDAT>
+      <CRETIM>173521</CRETIM>
+    </EDI_DC40>
+    <E1EDK01 SEGMENT="1">
+      <ACTION>001</ACTION>
+      <CURCY>USD</CURCY>
+       <BELNR>CI100820261434512</BELNR>
+    </E1EDK01>
+    <E1EDK14 SEGMENT="1">
+      <QUALF>012</QUALF>
+      <ORGID>ZSO</ORGID>
+    </E1EDK14>
+    <E1EDK14 SEGMENT="1">
+      <QUALF>019</QUALF>
+      <ORGID>S2</ORGID>
+    </E1EDK14>
+    <E1EDK03 SEGMENT="1">
+      <IDDAT>002</IDDAT>
+      <DATUM>20261008</DATUM>
+      <UZEIT/>
+    </E1EDK03>
+    <E1EDKA1 SEGMENT="1">
+      <PARVW>AG</PARVW>
+      <LIFNR>ABAC2</LIFNR>
+      <NAME1>C1008 Lufthansa Technik AG</NAME1>
+      <STRAS>Weg beim Jaeger 193 The second Cros</STRAS>
+      <STRS2>1st Cross west stage @second level</STRS2>
+      <ORT01>Hamburg  The world city to the .che</ORT01>
+      <PSTLZ>263-WEST@</PSTLZ>
+      <LAND1>US</LAND1>
+      <REGIO>CA</REGIO>
+    </E1EDKA1>
+    <E1EDKA1 SEGMENT="1">
+      <PARVW>LF</PARVW>
+      <LIFNR>ABS04</LIFNR>
+      <NAME1>AVIALL</NAME1>
+      <STRAS>Weg beim Jaeger 193 ABCD EFGH EFGH</STRAS>
+      <STRS2>1st Cross west street ABCD EFGH EFG</STRS2>
+      <ORT01>chennai-ABCDEFGHIJKLMNOPQRST.</ORT01>
+      <PSTLZ>323133443</PSTLZ>
+      <LAND1>US</LAND1>
+    </E1EDKA1>
+    <E1EDKA1 SEGMENT="1">
+      <PARVW>WE</PARVW>
+      <LIFNR>1064</LIFNR>
+      <NAME1>INC.</NAME1>
+      <STRAS>2750 REGENT BLVD.</STRAS>
+      <ORT01>DFW AIRPORT</ORT01>
+      <PSTLZ>75261</PSTLZ>
+      <LAND1>US</LAND1>
+      <REGIO>TX</REGIO>
+    </E1EDKA1>
+    <E1EDK02 SEGMENT="1">
+      <QUALF>001</QUALF>
+       <BELNR>CI100820261434512</BELNR>
+    </E1EDK02>
+    <E1EDP01 SEGMENT="1">
+      <POSEX>1</POSEX>
+      <ACTION>001</ACTION>
+      <MENGE>120</MENGE>
+      <MENEE>EA</MENEE>
+      <PMENE>EA</PMENE>
+      <VPREI>100</VPREI>
+      <PEINH>333</PEINH>
+      <CURCY>INR</CURCY>
+      <LPRIO>3</LPRIO>
+      <E1EDP02 SEGMENT="1">
+        <QUALF>001</QUALF>
+         <BELNR>CI100820261434512</BELNR>
+        <ZEILE>1</ZEILE>
+        <DATUM>20261008</DATUM>
+      </E1EDP02>
+      <E1EDP02 SEGMENT="2">
+        <QUALF>004</QUALF>
+        <BELNR>CI100820261434512</BELNR>
+        <ZEILE>00010</ZEILE>
+        <DATUM>20261008</DATUM>
+      </E1EDP02>
+      <E1EDP03 SEGMENT="1">
+        <IDDAT>002</IDDAT>
+        <DATUM>20261008</DATUM>
+      </E1EDP03>
+      <E1EDP05 SEGMENT="1">
+        <ALCKZ>+</ALCKZ>
+        <KSCHL>EDI1</KSCHL>
+        <KRATE>100</KRATE>
+      </E1EDP05>
+      <E1EDP20 SEGMENT="1">
+        <WMENG>10</WMENG>
+        <EDATU>20261008</EDATU>
+      </E1EDP20>
+      <E1EDPA1 SEGMENT="1">
+        <PARVW>WE</PARVW>
+        <LIFNR>1064</LIFNR>
+        <STRAS>AVIALL CENTRAL WAREHOUSE</STRAS>
+        <STRS2>2750 REGENT BLVD.</STRS2>
+        <ORT01>DFW AIRPORT</ORT01>
+        <PSTLZ>75261</PSTLZ>
+        <LAND1>US</LAND1>
+        <REGIO>TX</REGIO>
+      </E1EDPA1>
+      <E1EDP19 SEGMENT="1">
+        <QUALF>001</QUALF>
+        <IDTNR>PART01</IDTNR>
+      </E1EDP19>
+      <E1EDP19 SEGMENT="1">
+        <QUALF>002</QUALF>
+        <IDTNR>PART01</IDTNR>
+      </E1EDP19>
+      <E1EDP19 SEGMENT="1">
+        <QUALF>004</QUALF>
+        <MFRPN>PART-1</MFRPN>
+      </E1EDP19>
+      <E1EDPAD SEGMENT="1">
+        <QUALF>001</QUALF>
+        <PRI>AOG</PRI>
+      </E1EDPAD>
+      <E1EDPT1 SEGMENT="1">
+        <TDID>2024-02-29 17:35:21</TDID>
+        <TSSPRAS>E</TSSPRAS>
+        <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+        <E1EDPT2 SEGMENT="1">
+          <TDLINE>2026-10-08 14:34:39</TDLINE>
+          <TDFORMAT>*</TDFORMAT>
+        </E1EDPT2>
+      </E1EDPT1>
+      <E1EDPT1 SEGMENT="1">
+        <TDID>Z001</TDID>
+        <TSSPRAS>E</TSSPRAS>
+        <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+        <E1EDPT2 SEGMENT="1">
+          <TDLINE>2026-10-08 14:34:39</TDLINE>
+          <TDFORMAT>*</TDFORMAT>
+        </E1EDPT2>
+      </E1EDPT1>
+      <E1EDPT1 SEGMENT="1">
+        <TDID>Z014</TDID>
+        <TSSPRAS>E</TSSPRAS>
+        <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+        <E1EDPT2 SEGMENT="1">
+          <TDLINE>2026-10-08 14:34:39</TDLINE>
+          <TDFORMAT>*</TDFORMAT>
+        </E1EDPT2>
+      </E1EDPT1>
+    </E1EDP01>
+  </IDOC>
+</ORDERS05>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><S1CPOXMT>
+  <SPEC_HDR>
+    <Priority>QK</Priority>
+    <Receiver>ABS04</Receiver>
+    <Sender>ABAC2</Sender>
+    <S1FRADDR>ABAC2</S1FRADDR>
+  </SPEC_HDR>
+  <S1CPOXMTcmd>
+    <CCD>S1BOOKED</CCD>
+    <CIC>ABAC2</CIC>
+    <SPL>ABS04</SPL>
+    <ICR>USD</ICR>
+    <POC>1</POC>
+    <QTL>10</QTL>
+    <S1CPOXMT_ORDER>
+      <TNC>341</TNC>
+      <CPO>CI100820261259630</CPO>
+      <PNR>PART01</PNR>
+      <QTO>10</QTO>
+      <UNT>EA</UNT>
+      <UNP>100.00</UNP>
+      <SSD>20261008</SSD>
+      <SSM>AFA</SSM>
+      <SHT>DFW03</SHT>
+      <SDC>Y</SDC>
+      <MFR>ABS04</MFR>
+      <ACN>ARN01</ACN>
+      <PKG>1</PKG>
+      <LSE>Y</LSE>
+      <PDP>2.00</PDP>
+      <VRN>123</VRN>
+      <POU>LN1212</POU>
+      <CTN>121212</CTN>
+      <REM>2026-10-08 12:59:48</REM>
+    </S1CPOXMT_ORDER>
+  </S1CPOXMTcmd>  
+</S1CPOXMT>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><S1INVACK>
+  <SPEC_HDR>
+    <Priority>QK</Priority>
+    <Receiver>ABS04</Receiver>
+    <Sender>ABAC2</Sender>
+  </SPEC_HDR>
+  <S1INVACKcmd>
+    <CCD>S1NVOICE</CCD>
+    <CUS>ABAC2</CUS>
+    <SPL>ABS04</SPL>
+    <CPO>CI02292024173519</CPO>
+    <PNR>PART-12345</PNR>
+    <INV>CI02292024173519010</INV>
+    <ACK>2024-02-29 17:35:22</ACK>
+  </S1INVACKcmd>  
+</S1INVACK>
